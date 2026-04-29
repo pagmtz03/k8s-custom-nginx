@@ -3,7 +3,7 @@ name: Build and Push Docker Image
 env:
   REGISTRY: ghcr.io
   # Replace <your_lowercase_username> with your actual username in ALL lowercase
-  IMAGE_NAME: ghcr.io/<your_lowercase_username>/k8s-custom-nginx
+  IMAGE_NAME: ghcr.io/pagmtz03/k8s-custom-nginx
 
 permissions:
   contents: read
